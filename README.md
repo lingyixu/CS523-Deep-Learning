@@ -20,7 +20,7 @@ We dive into a social network in [LastFM](https://www.last.fm/), an online music
 **Question**:
 * Q1. Friend recommendation / user-user recommendation:
   * **Can we predict a user's region based on the user feature and connections?**
-  * EDA shows that users tend to connect with those from the same region. This provides supportive evidence on recommending users within the same region, at the same time showing potential opportunities connecting users from different regions.
+  * EDA [[notebook]](https://github.com/lingyixu/CS523-Deep-Learning/blob/main/last-FM_dataset/523Dateset.ipynb) shows that users tend to connect with those from the same region. This provides supportive evidence on recommending users within the same region, at the same time showing potential opportunities connecting users from different regions.
 * Q2. Artist recommendation / user-artist recommendation:
   * **Can we predict a user's music taste (artist preference) based on the user's connections?**
   * Connections indicate similarity in graphs. Learning a user's connections' followed artists help undertand the user's taste.
@@ -34,8 +34,8 @@ We dive into a social network in [LastFM](https://www.last.fm/), an online music
     <img width='400' src='img/multi_label_model.png'>
 
 **Results (as of April 5, 2023)**:
-* Multi-class classification accuracy: 80.85%
-* Multi-label classification accuracy (with [Hamming Distance](https://torchmetrics.readthedocs.io/en/stable/classification/hamming_distance.html)): 94.91%
+* Multi-class classification accuracy [[notebook]](https://github.com/lingyixu/CS523-Deep-Learning/blob/main/GNN/GNN_Multiclass_Classification.ipynb): 80.85% 
+* Multi-label classification accuracy (with [Hamming Distance](https://torchmetrics.readthedocs.io/en/stable/classification/hamming_distance.html)) [[notebook]](https://github.com/lingyixu/CS523-Deep-Learning/blob/main/GNN/GNN_Multilabel_Classification.ipynb): 94.91%
 
 **To-do**:
 * Fine-tune two GNN models for better model performance
