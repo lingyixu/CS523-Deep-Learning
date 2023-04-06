@@ -1,6 +1,6 @@
 # Unlocking the Musical Map of LastFM Asia: Evidence from Graph Neural Network
 
-We dive into a social network in [LastFM](https://www.last.fm/), an online music database and music social network platform, and explore user music tastes using [Graph Neural Network](https://ieeexplore.ieee.org/document/4700287) (GNN). We are interested in building a user-user and user-artist recommendation system, and explaining our recommendations with a GNN interpretation tool, [GNNExplainer](https://proceedings.neurips.cc/paper/2019/file/d80b7040b773199015de6d3b4293c8ff-Paper.pdf).
+We dive into a social network of [LastFM](https://www.last.fm/), an online music database and music social network platform, and explore user music tastes using [Graph Neural Network](https://ieeexplore.ieee.org/document/4700287) (GNN). We are interested in building a user-user and user-artist recommendation system, and explaining our recommendations with a GNN interpretation tool, [GNNExplainer](https://proceedings.neurips.cc/paper/2019/file/d80b7040b773199015de6d3b4293c8ff-Paper.pdf).
 
 # 
 
@@ -18,10 +18,10 @@ We dive into a social network in [LastFM](https://www.last.fm/), an online music
 </p>
 
 **Question**:
-* Q1. Friend recommendation / user-user recommendation:
+* Q1. Friend recommendation (user-user recommendation):
   * **Can we predict a user's region based on the user feature and connections?**
   * EDA [[notebook]](https://github.com/lingyixu/CS523-Deep-Learning/blob/main/last-FM_dataset/523Dateset.ipynb) shows that users tend to connect with those from the same region. This provides supportive evidence on recommending users within the same region, at the same time showing potential opportunities connecting users from different regions.
-* Q2. Artist recommendation / user-artist recommendation:
+* Q2. Content recommendation (user-artist recommendation):
   * **Can we predict a user's music taste (artist preference) based on the user's connections?**
   * Connections indicate similarity in graphs. Learning a user's connections' followed artists help undertand the user's taste.
 
