@@ -1,8 +1,8 @@
-## Unlocking the Musical Map of LastFM Asia: Evidence from Graph Neural Network
+# Unlocking the Musical Map of LastFM Asia: Evidence from Graph Neural Network
 
 We dive into a social network in [LastFM](https://www.last.fm/), an online music database and music social network platform, and explore user music tastes using [Graph Neural Network](https://ieeexplore.ieee.org/document/4700287) (GNN). We are interested in building a user-user and user-artist recommendation system, and explaining our recommendations with a GNN interpretation tool, [GNNExplainer](https://proceedings.neurips.cc/paper/2019/file/d80b7040b773199015de6d3b4293c8ff-Paper.pdf).
 
----
+   
 
 **Data** [[Link](https://github.com/benedekrozemberczki/datasets#lastfm-asia-social-network)]: A social network of LastFM users collected from the public API in March 2020. 
 
