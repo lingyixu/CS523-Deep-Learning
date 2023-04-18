@@ -37,13 +37,18 @@ We dive into a social network of [LastFM](https://www.last.fm/), an online music
 * Cross validation: randomly divide the nodes into 5 non-overlapping folds. Train:test = 4:1 in each fold.
 * Weight decay: apply a small L2 regularization to compress large weights in case of overfitting.
 
-**Results (as of April 5, 2023)**:
-* Multi-class classification accuracy [[notebook]](https://github.com/lingyixu/CS523-Deep-Learning/blob/main/GNN/GCN_Multiclass_Classification.ipynb): 80.85% 
-* Multi-label classification accuracy (with [Hamming Distance](https://torchmetrics.readthedocs.io/en/stable/classification/hamming_distance.html)) [[notebook]](https://github.com/lingyixu/CS523-Deep-Learning/blob/main/GNN/GCN_Multilabel_Classification.ipynb): 94.91%
+**Progress**:
+* As of April 18, 2023:
+  * Update with cross validation: [notebook](https://github.com/lingyixu/CS523-Deep-Learning/blob/main/GNN/GCN_Multilabel_Classification_5Fold_CV.ipynb)
+  * Update with other graph convolutaional methods: [GAT](https://github.com/lingyixu/CS523-Deep-Learning/blob/main/GNN/GAT_Multilabel_Classification_5Fold_CV.ipynb)
+  * Update with benchmark graph model interpretation approach: edge weights with GAT
+* As of April 5, 2023:
+  * Multi-class classification accuracy [[notebook]](https://github.com/lingyixu/CS523-Deep-Learning/blob/main/GNN/GCN_Multiclass_Classification.ipynb): 80.85% 
+  * Multi-label classification accuracy (with [Hamming Distance](https://torchmetrics.readthedocs.io/en/stable/classification/hamming_distance.html)) [[notebook]](https://github.com/lingyixu/CS523-Deep-Learning/blob/main/GNN/GCN_Multilabel_Classification.ipynb): 94.91%
 
 **To-do**:
-* Fine-tune two GNN models for better model performance
-* Apply GNNExplainer to interpret model predictions
+* Try more GNN architectures
+* Apply GNNExplainer to explain model predictions
 
 # 
 
