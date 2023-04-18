@@ -34,8 +34,8 @@ We dive into a social network of [LastFM](https://www.last.fm/), an online music
     <img width='400' src='img/multi_label_model.png'>
 
 **Results (as of April 5, 2023)**:
-* Multi-class classification accuracy [[notebook]](https://github.com/lingyixu/CS523-Deep-Learning/blob/main/GNN/GNN_Multiclass_Classification.ipynb): 80.85% 
-* Multi-label classification accuracy (with [Hamming Distance](https://torchmetrics.readthedocs.io/en/stable/classification/hamming_distance.html)) [[notebook]](https://github.com/lingyixu/CS523-Deep-Learning/blob/main/GNN/GNN_Multilabel_Classification.ipynb): 94.91%
+* Multi-class classification accuracy [[notebook]](https://github.com/lingyixu/CS523-Deep-Learning/blob/main/GNN/GCN_Multiclass_Classification.ipynb): 80.85% 
+* Multi-label classification accuracy (with [Hamming Distance](https://torchmetrics.readthedocs.io/en/stable/classification/hamming_distance.html)) [[notebook]](https://github.com/lingyixu/CS523-Deep-Learning/blob/main/GNN/GCN_Multilabel_Classification.ipynb): 94.91%
 
 **To-do**:
 * Fine-tune two GNN models for better model performance
