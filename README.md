@@ -33,6 +33,10 @@ We dive into a social network of [LastFM](https://www.last.fm/), an online music
   * Q2. Feature prediction: GNN-based multi-label classification.   
     <img width='400' src='img/multi_label_model.png'>
 
+**Training strategy**:
+* Cross validation: randomly divide the nodes into 5 non-overlapping folds. Train:test = 4:1 in each fold.
+* Weight decay: apply a small L2 regularization to compress large weights in case of overfitting.
+
 **Results (as of April 5, 2023)**:
 * Multi-class classification accuracy [[notebook]](https://github.com/lingyixu/CS523-Deep-Learning/blob/main/GNN/GCN_Multiclass_Classification.ipynb): 80.85% 
 * Multi-label classification accuracy (with [Hamming Distance](https://torchmetrics.readthedocs.io/en/stable/classification/hamming_distance.html)) [[notebook]](https://github.com/lingyixu/CS523-Deep-Learning/blob/main/GNN/GCN_Multilabel_Classification.ipynb): 94.91%
