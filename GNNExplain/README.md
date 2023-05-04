@@ -1,1 +1,1 @@
-Folder for GNNExpainer.
+Folder for GNNExplainer.
