@@ -1,1 +1,1 @@
-Repo for GNNExpainer.
+Folder for GNNExpainer.
