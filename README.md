@@ -77,7 +77,7 @@ We dive into a social network of [LastFM](https://www.last.fm/), an online music
   See feature importance visualization for the overall dataset (left) and randomly picked individual users (right) below.   
   
   <p align='center'>
-  <img width='400' src='img/feature_importance_overall.png'>
+  <img width='415' src='img/feature_importance_overall.png'>
   <img width='350' src='img/feature_importance_individual.png'>
   </p>
 
