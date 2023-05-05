@@ -25,7 +25,7 @@ We dive into a social network of [LastFM](https://www.last.fm/), an online music
 
 #
 
-## Paper summary
+## Paper overview
 
 **Data** [[Link](https://github.com/benedekrozemberczki/datasets#lastfm-asia-social-network)]: A social network of LastFM users collected from the public API in March 2020. 
 
