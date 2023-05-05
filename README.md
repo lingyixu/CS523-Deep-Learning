@@ -54,6 +54,18 @@ We dive into a social network of [LastFM](https://www.last.fm/), an online music
   </p>
   
 #
+**Results**:
+* Overall model performance:   
+  
+  <p align='center'>
+  <img width='600' src='img/cm_overall.png'>
+  </p>
+* Individual predictions of randomly picked users:   
+  <p align='center'>
+  <img width='400' src='img/cm_individual.png'>
+  </p>
+
+#
 
 **Model interpretation**:
 * **Edge importance**: self-attention scores learned by GAT.    
