@@ -11,7 +11,7 @@ We dive into a social network of [LastFM](https://www.last.fm/), an online music
 * Raw data: [last-FM_dataset](https://github.com/lingyixu/CS523-Deep-Learning/tree/main/last-FM_dataset)
 * Data processing and EDA: [notebook](https://github.com/lingyixu/CS523-Deep-Learning/blob/main/last-FM_dataset/523Dateset.ipynb)
 
-**Models**:
+**Model**:
 * Region prediction GCN: [notebook](https://github.com/lingyixu/CS523-Deep-Learning/blob/main/GNN/GCN_Multiclass_Classification_5Fold_CV.ipynb)
 * Region prediction MLP: [notebook](https://github.com/lingyixu/CS523-Deep-Learning/blob/main/Non_Graph_NN/MLP_Multiclass_Classification_5Fold_CV.ipynb)
 * Artist prediction GCN: [GCN_1000](https://github.com/lingyixu/CS523-Deep-Learning/blob/main/GNN/GCN_Multilabel_Classification_5Fold_CV_1000.ipynb), [GCN_800](https://github.com/lingyixu/CS523-Deep-Learning/blob/main/GNN/GCN_Multilabel_Classification_5Fold_CV_800.ipynb), [GCN_600](https://github.com/lingyixu/CS523-Deep-Learning/blob/main/GNN/GCN_Multilabel_Classification_5Fold_CV_600.ipynb)
