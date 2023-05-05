@@ -6,6 +6,27 @@ We dive into a social network of [LastFM](https://www.last.fm/), an online music
 
 # 
 
+### GitHub code overview:
+**Data**:   
+* Raw data: [last-FM_dataset](https://github.com/lingyixu/CS523-Deep-Learning/tree/main/last-FM_dataset)
+* Data processing and EDA: [notebook](https://github.com/lingyixu/CS523-Deep-Learning/blob/main/last-FM_dataset/523Dateset.ipynb)
+
+**Models**:
+* Region prediction GCN: [notebook](https://github.com/lingyixu/CS523-Deep-Learning/blob/main/GNN/GCN_Multiclass_Classification_5Fold_CV.ipynb)
+* Region prediction MLP: [notebook](https://github.com/lingyixu/CS523-Deep-Learning/blob/main/Non_Graph_NN/MLP_Multiclass_Classification_5Fold_CV.ipynb)
+* Artist prediction GCN: [GCN_1000](https://github.com/lingyixu/CS523-Deep-Learning/blob/main/GNN/GCN_Multilabel_Classification_5Fold_CV_1000.ipynb), [GCN_800](https://github.com/lingyixu/CS523-Deep-Learning/blob/main/GNN/GCN_Multilabel_Classification_5Fold_CV_800.ipynb), [GCN_600](https://github.com/lingyixu/CS523-Deep-Learning/blob/main/GNN/GCN_Multilabel_Classification_5Fold_CV_600.ipynb)
+* Artist prediction GAT: [GAT_1000](https://github.com/lingyixu/CS523-Deep-Learning/blob/main/GNN/GAT_Multilabel_Classification_5Fold_CV_1000.ipynb), [GAT_800](https://github.com/lingyixu/CS523-Deep-Learning/blob/main/GNN/GAT_Multilabel_Classification_5Fold_CV_800.ipynb), [GAT_600](https://github.com/lingyixu/CS523-Deep-Learning/blob/main/GNN/GAT_Multilabel_Classification_5Fold_CV_600.ipynb), [GAT_multihead_600](https://github.com/lingyixu/CS523-Deep-Learning/blob/main/GNN/GAT_Multihead_Multilabel_Classification_5Fold_CV_600.ipynb)
+
+**Evaluation**: [notebook](https://github.com/lingyixu/CS523-Deep-Learning/blob/main/GCN_Multilabel_Classification_Confusion_Matrix.ipynb)
+
+**_GNNExplainer_**:
+* Region prediction: [notebook](https://github.com/lingyixu/CS523-Deep-Learning/blob/main/GNNExplain/Explainer_of_%20GCN_Region_Classification.ipynb)
+* Artist prediction: [notebook](https://github.com/lingyixu/CS523-Deep-Learning/blob/main/GNNExplain/GNNExplainer.ipynb)
+
+#
+
+## Paper summary
+
 **Data** [[Link](https://github.com/benedekrozemberczki/datasets#lastfm-asia-social-network)]: A social network of LastFM users collected from the public API in March 2020. 
 
 **Graph dataset overview**:
@@ -80,18 +101,6 @@ We dive into a social network of [LastFM](https://www.last.fm/), an online music
   <img width='415' src='img/feature_importance_overall.png'>
   <img width='350' src='img/feature_importance_individual.png'>
   </p>
-
-#
-
-**Progress**:
-* As of April 18, 2023:
-  * Update with cross validation: [notebook](https://github.com/lingyixu/CS523-Deep-Learning/blob/main/GNN/GCN_Multilabel_Classification_5Fold_CV.ipynb)
-  * Update with other graph convolutaional methods: [GAT](https://github.com/lingyixu/CS523-Deep-Learning/blob/main/GNN/GAT_Multilabel_Classification_5Fold_CV.ipynb)
-  * Update with benchmark graph model interpretation approach: edge weights with GAT
-* As of April 5, 2023:
-  * Multi-class classification accuracy [[notebook]](https://github.com/lingyixu/CS523-Deep-Learning/blob/main/GNN/GCN_Multiclass_Classification.ipynb): 80.85% 
-  * Multi-label classification accuracy (with [Hamming Distance](https://torchmetrics.readthedocs.io/en/stable/classification/hamming_distance.html)) [[notebook]](https://github.com/lingyixu/CS523-Deep-Learning/blob/main/GNN/GCN_Multilabel_Classification.ipynb): 94.91%
-
 
 # 
 
